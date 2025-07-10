@@ -22,8 +22,8 @@ app.config['MAIL_DEFAULT_SENDER'] = os.environ.get('EMAIL_DEFAULT_SENDER')  # Yo
 
 mail = Mail(app)
 
-USER_NAME = os.environ.get('USER_NAME')
-USER_PASSWORD = os.environ.get('USER_PASSWORD')
+USER_NAME = "sherri"
+USER_PASSWORD = "user123"
 ADMIN_NAME = os.environ.get('ADMIN_NAME')
 ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD')
 PORTAL_URL = os.environ.get('PORTAL_URL')
